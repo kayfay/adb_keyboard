@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+# Invoke and use as interactive prompt
+# python3 adbkeyboard.py
+
 import os
 
-# initialize a variable for text
 # ADB Keyevents
 enterADB = '66'
 tabADB = '61'
@@ -9,6 +11,7 @@ homeADB = '3'
 spaceADB = '62'
 semiADB = '74'
 
+# initialize a variable for text
 # ADB commands
 textADB = "adb shell input text "
 keyeventADB = "adb shell input keyevent "
