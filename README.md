@@ -1,8 +1,9 @@
 # adb_keyboard
 Requirements: Must have ADB installed and device connected through 'ADB devices'
 
+Instructions: 
 ```
-Instructions: chmod +x adbkeyboard.py
+chmod +x adbkeyboard.py
 python3 adbkeyboard.py
 ```
 
